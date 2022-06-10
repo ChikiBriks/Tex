@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\Photo.jpg" />
+    <None Remove="image\Photo.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="image\Photo.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\Photo.jpg" />
+  </ItemGroup>
+
+</Project>
